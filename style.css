@@ -1,0 +1,163 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+nav ul li a, nav ul{
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.contact{
+    border: groove;
+    border-radius: 10px;
+    border-width: thin;
+    padding: 5px;
+    margin-top: -5px;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.newsletter{
+    text-align: left;
+    width: 29rem;
+    font-size: 25px;
+}
+
+.newsletter h2{
+    font-size: 65px;
+}
+
+.onee{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background:scroll, rgb(8, 0, 255);
+    justify-content: center;
+    gap: 9rem;
+    color: white;
+    padding-bottom: 10rem;
+}
+
+.hoo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hoo input{
+    padding: 20px;
+    border-radius:40px;
+    outline: none;
+    background-color: aqua;
+}
+
+.hoo p a{
+    background-color: rgb(161, 6, 81);
+    border: none;
+    text-align: center;
+    padding: 0.9rem 9.6rem;
+    border-radius: 25px;
+}
+
+.one{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    background-color: rgb(237, 243, 243);
+    justify-content: center;
+    font-size: x-large;
+    gap: 3rem;
+    padding: 35px 10px;
+}
+
+.fa-user{
+    color: rgb(165, 68, 174);
+}
+
+.fa{
+    padding-top: 1rem;
+}
+
+.fa-rocket{
+    color: rgb(4, 152, 152);
+}
+
+.fa-dollar{
+    color: rgb(165, 68, 174);
+}
+
+#mo, #go{
+    color: rgb(60, 59, 58);
+    margin-top: 2rem;
+    padding-left: 3rem;
+}
+
+#lo{
+    color: rgb(60, 59, 58);
+    margin-top: 2rem;
+    padding-left: 4rem;
+}
+
+.ifgk{
+    display: flex;
+    gap: 20px;
+}
+
+.ifgk h4{
+    font-size: x-large;
+    padding-top: 15px;
+}
+
+.even img{
+    width: 9rem;
+    border-radius: 100%;
+}
+
+.eight, .even, .five, .three, .two{
+    display: flex;
+    align-items: center;
+}
+
+svg{
+    margin-top: -255rem;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 24);
+}
+
+.quicklink ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}

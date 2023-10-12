@@ -67,14 +67,13 @@ a{
     padding: 20px;
     border-radius:40px;
     outline: none;
-    background-color: aqua;
 }
 
 .hoo p a{
     background-color: rgb(161, 6, 81);
     border: none;
     text-align: center;
-    padding: 0.9rem 9.6rem;
+    padding: 10px 148px;
     border-radius: 25px;
 }
 
@@ -132,14 +131,161 @@ a{
     padding-top: 15px;
 }
 
+.three{
+    gap: 3rem;
+    font-size: 22px;
+    padding-bottom: 100px;
+}
+
+.three p{
+    width: 30rem;
+}
+
+.fk, .ok{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: rgb(53, 57, 57);
+}
+
+.partnerships{
+    color: white;
+    background: purple;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.four{
+    background-color: rgb(228, 239, 239);
+    font-size: x-large;
+    width: 70rem;
+    position: relative;
+    left: 6.9rem;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.four p{
+    margin-top: 20px;
+}
+
+.five{
+    gap: 3rem;
+    padding-bottom: 4rem;
+}
+
+.five p{
+    width: 30rem;
+    font-size: 20px;
+}
+
+#learn{
+    padding: 15px;
+    background-color: rgb(126, 4, 67);
+    width: fit-content;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.even{
+    gap: 3rem;
+}
+
+.seven{
+    text-align: center;
+}
+
 .even img{
     width: 9rem;
     border-radius: 100%;
 }
 
+.seven p{
+    width: 20rem;
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(85, 84, 82);
+}
+
+.name p{
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+}
+
+.eight{
+    gap: 3rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.eight h4{
+    font-size: xx-large;
+}
+
+.eight p{
+    margin-top: 1rem;
+}
+
+.in{
+    display: flex;
+    margin-top: 20px;
+}
+
+.in input{
+    width: 20rem;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(69, 67, 65);
+    border-radius: 5px;
+}
+
+.in p{
+    background-color: rgb(205, 62, 205);
+    margin-top: 0%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .eight, .even, .five, .three, .two{
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.nine{
+    background-color: rgb(25, 33, 49);
+}
+
+.te{
+    width: 30rem;
+    font-size: 20px;
+}
+
+.nine p{
+    font-size: 30px;
+    width: 25rem;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+    left: 29.4rem;
+    color: white;
+    height: 15rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 2rem;
 }
 
 svg{
@@ -153,7 +299,15 @@ svg{
 .footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(25, 33, 49);
+    padding: 1rem;
+    border-top: solid thin white;
+    font-size: larger;
+}
+
+.footer p{
+    color: white;
+    font-size: larger;
 }
 
 .quicklink ul{

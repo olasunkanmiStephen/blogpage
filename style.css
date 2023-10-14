@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'roboto', sans-serif
 }
 
 nav{
@@ -67,13 +67,14 @@ a{
     padding: 20px;
     border-radius:40px;
     outline: none;
+    border: none;
 }
 
 .hoo p a{
     background-color: rgb(161, 6, 81);
     border: none;
     text-align: center;
-    padding: 10px 148px;
+    padding: 10px 18px;
     border-radius: 25px;
 }
 
@@ -158,13 +159,12 @@ a{
 }
 
 .four{
-    background-color: rgb(228, 239, 239);
-    font-size: x-large;
-    width: 70rem;
-    position: relative;
-    left: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
     padding: 30px;
-    border-radius: 5px;
 }
 
 .four p{
@@ -191,7 +191,11 @@ a{
 }
 
 .even{
-    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
 }
 
 .seven{
@@ -264,21 +268,30 @@ a{
     background-color: rgb(25, 33, 49);
 }
 
+.nine p{
+    padding: 30px 450px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
 .te{
-    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
     font-size: 20px;
 }
 
-.nine p{
-    font-size: 30px;
-    width: 25rem;
-    text-align: center;
+.four{
+    display: flex;
     justify-content: center;
-    position: relative;
-    top: 3rem;
-    left: 29.4rem;
-    color: white;
-    height: 15rem;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
 }
 
 .social{
@@ -288,6 +301,10 @@ a{
     padding-bottom: 2rem;
 }
 
+.social i{
+    font-size: x-large;
+    color: antiquewhite;
+}
 svg{
     margin-top: -255rem;
 }
@@ -315,3 +332,101 @@ svg{
     gap: 3rem;
     list-style: none;
 }
+
+.tog{
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .onee, .two, .three, .four, .five, .even, .te, .ok, .eight{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tog{
+        display: flex;
+    }
+
+    .newsletter{
+        width: 100%;
+    }
+
+    .hoo input{
+        width: 70%;
+    }
+
+    .ok h3,.ok p, .fk p, .tx p, .tx h4{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .tx #learn{
+        margin-left: 20px;
+    }
+
+    .ok .partnerships{
+        width: fit-content;
+        /* padding: 20px; */
+    }
+
+    #brand img{
+        width: 50%;
+    }
+
+    .seven{
+        padding: 17px;
+    }
+
+    .eight{
+        margin-top: 6rem;
+    }
+
+    .eight img{
+        margin-top: -90px;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .in{
+        display: flex;
+        width: 100%;
+    }
+
+    .nine p{
+        padding: 10px 5rem;
+    }
+
+    .quicklink ul{
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+    }
+    
+    .footer{
+        text-align: center;
+        display: block;
+        gap: 40px;
+        font-size: 15px;
+    }
+    
+
+    #menu {
+        display: none;
+        top: 3.4rem;
+        position: absolute;
+        right: 0.3px;
+        text-align: center;
+        font-weight: bolder;
+        color: #fff;
+        padding: 30px;
+        width: 100%;
+        background-color: rgb(39, 107, 107);
+    } 
+
+}
+
